@@ -1,0 +1,21 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red245\green245\blue245;\red0\green0\blue0;\red0\green0\blue255;
+}
+{\*\expandedcolortbl;;\cssrgb\c96863\c96863\c96863;\cssrgb\c0\c0\c0;\cssrgb\c0\c0\c100000;
+}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf0 \cb2 \expnd0\expndtw0\kerning0
+steps for data transformation: \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf4 \cb2 * \cf0 concat, \cb1 \
+\cf4 \cb2 * \cf0 merge with lookup tables and get the description columns\cb1 \
+\cf4 \cb2 * \cf0 normalize the $$, and time (if needed)\cb1 \
+\cf4 \cb2 * \cf0 sort by date, \cb1 \
+\cf4 \cb2 * \cf0 calculate total_sales\cb1 \
+\cf4 \cb2 * \cf0 if time is not required drop the column\cb1 \
+\cf4 \cb2 * \cf0 group by date and product_name and aggregate total_sales\cb1 \
+}
